@@ -22,8 +22,12 @@ CONFIG_CRYPTO_AES_ARM64_CE_BLK=m
 ##
 ## file: arch/arm64/Kconfig.platforms
 ##
+CONFIG_ARCH_HISI=y
+CONFIG_ARCH_SEATTLE=y
 CONFIG_ARCH_VEXPRESS=y
 CONFIG_ARCH_XGENE=y
+
+CONFIG_HISILICON_IRQ_MBIGEN=y
 
 ##
 ## file: drivers/ata/Kconfig
@@ -168,6 +172,7 @@ CONFIG_RTC_DRV_XGENE=y
 ## file: drivers/scsi/Kconfig
 ##
 CONFIG_SCSI_DMX3191D=m
+CONFIG_SCSI_HISI_SAS=m
 
 ##
 ## file: drivers/tty/serial/Kconfig
