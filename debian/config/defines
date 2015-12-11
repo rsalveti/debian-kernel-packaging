@@ -48,7 +48,6 @@ type: plain
 # compilers
 gcc-4.8: gcc-4.8 <!stage1>
 gcc-4.9: gcc-4.9 <!stage1>
-gcc-5: gcc-5 <!stage1>
 
 # initramfs-generators
 initramfs-fallback: linux-initramfs-tool
